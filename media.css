@@ -1,0 +1,232 @@
+
+@media only screen and (min-width: 300px) and (max-width: 599px){
+  .nav {
+	transform: translateX(0);
+	position: fixed;
+	text-align: center;
+	animation: none;
+  }
+  header {
+    height: 50vh;
+  }
+  .header h1 {
+    font-size: 2.5rem;
+    padding-top: 30px;
+  }
+  .header p {
+    font-size: 0.8rem;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  .wrapper {
+    width: 90%;
+    margin: 10px auto;
+  }
+  section {
+    height: auto;
+    margin: 20px auto;
+    padding: 5px;
+  }
+  /****** CARDS ******/
+  .section-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .card {
+    flex: 1;
+  }
+  .card .logo {
+    font-size: 4rem;
+  }
+  .card-info {
+    margin: 0;
+  }
+  .card-info h3 {
+    font-size: 1.5rem;
+    margin: 5px auto;
+  }
+
+  .card-info p {
+    font-size: 1rem;
+    padding: 20px;
+  }
+  /****** PROFILE ******/
+  .section-profile {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .section-profile .profile-logo {
+    text-align: center;
+    font-size: 5rem;
+  }
+  .section-profile h3 {
+    font-size: 1.8rem;
+    width: 50%;
+    margin: 5px auto;
+  }
+  .profile-name {
+    font-size: 1rem;
+  }
+  .section-profile ul {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .section-profile p {
+    font-size: 1rem;
+    padding: 20px;
+  }
+  /**** CLASSES **********/
+  .classes-header {
+    font-size: 1.8rem;
+    padding: 10px 0 10px 0;
+  }
+  .section-gallery {
+    width: 100%;
+    margin: 0 ;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .gallery {
+    width: 100%;
+  }
+  .section-gallery img {
+    max-height:300px;
+  }
+  .gallery-text p {
+    font-size: 1.5rem;
+  }
+  /***** FOOTER *****/
+  .footer {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    background: linear-gradient( #17202A, #000);
+    color: #fff;
+    display: block;
+  }
+.information .timetable {
+    width: 100%;
+    padding: 20px;
+  }
+  .information p, .timetable p{
+    font-size: 1rem;
+    border: none;
+    }
+  .information h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    width: 90%;
+    margin: 5px auto;
+  }
+  .bottom {
+    display: none;
+  }
+}
+
+/************* NAVBAR ****************/
+@media only screen and  (max-width: 768px){
+.header {
+    padding-top: 20%;
+  }
+  .header h1{
+    transform: translateY(0);
+    animation: none;
+  }
+  .header p {
+    transform: scale(1);
+    opacity: 1;
+    animation: none;
+  }
+ 
+  .nav {
+    animation: none;
+    transform: translateX(0);
+  }
+  .toggle {
+    display: block;
+  }
+  .navbar {
+    width: 100%;
+    display: none;
+    text-align: center;
+  }
+  .navbar li {
+    display: block;
+    width: 100%;
+  }
+  .navbar p {
+    text-align: center;
+    display: block;
+    max-width: 100%;
+    margin-right: 0;
+  }
+  .fixed-nav .navbar p {
+    text-align: center;
+  }
+  .active {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 947px){
+  header {
+    height: 70vh;
+  }
+  .section-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+  .card {
+    flex: 1;
+    margin: 20px 0 20px 0;
+  }
+  .card .logo {
+    font-size: 4rem;
+  }
+  .card-info {
+    margin: 0;
+  }
+  .section-profile {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .section-profile ul {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .section-profile p {
+    font-size: 1.1rem;
+    padding: 20px;
+  }
+  .section-gallery {
+    width: 100%;
+    margin: 0 ;
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .gallery {
+    width: 90%;
+    margin: 10px;
+  }
+  .section-gallery img {
+    max-height:400px;
+  }
+  .information h3 {
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 948px) and (max-width: 1172px){
+  header {
+    height: 50vh;
+  }
+  .card {
+    margin: 2px;
+  }
+  .card-info h3 {
+    font-size: 1.7rem
+  }
+}
